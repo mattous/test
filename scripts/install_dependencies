@@ -1,9 +1,6 @@
 #!/bin/bash
-# if ! [ -x "$(command -v httpd)" ]; then 
 
-yum install -y httpd24 >&2;   
-yum install -y php >&2;
+yum update -y
 
-exit 1; 
-
-# fi # install apache if not already installed
+yum install -y httpd24 
+yum install -y php 
