@@ -7,6 +7,6 @@ $date = Carbon::now();
 
 echo $date->toDayDateTimeString();
 
-echo "<br />";
+echo "<br /><br />";
 
 echo gethostname();
