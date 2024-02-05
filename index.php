@@ -9,4 +9,4 @@ echo $date->toDayDateTimeString();
 
 echo "<br />";
 
-var_dump($_SERVER['SERVER_NAME']);
+echo gethostname();
