@@ -9,4 +9,4 @@ echo $date->toDayDateTimeString();
 
 echo "<br />";
 
-echo "$_SERVER['SERVER_NAME']";
+var_dump($_SERVER['SERVER_NAME']);
