@@ -7,6 +7,6 @@ $date = Carbon::now();
 
 echo $date->toDayDateTimeString();
 
-echo "<br />"
+echo "<br />";
 
-echo "$_SERVER['SERVER_NAME']"
+echo "$_SERVER['SERVER_NAME']";
